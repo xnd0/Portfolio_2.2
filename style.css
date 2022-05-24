@@ -2,4 +2,27 @@
 /* --- CSS Style Page --- */
 /* ---------------------- */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+
+/* Element Selectors */
+header {
+    display: flex;
+    flex: wrap;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    align-items: right;
+}
+
+/* Class Selectors */
+
+.outline {
+    border: 2px solid darkgreen;
+}
