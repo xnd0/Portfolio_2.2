@@ -6,11 +6,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    text-align: center;
+}
 
 /* Element Selectors */
 header {
     display: flex;
     flex: wrap;
+}
+
+nav {
+    justify-content: flex-end;
 }
 
 li {
@@ -25,4 +32,7 @@ ul {
 
 .outline {
     border: 2px solid darkgreen;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
 }
