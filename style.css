@@ -8,6 +8,8 @@
 
 body {
     text-align: center;
+    background-color: rgb(16, 16, 48);
+    color:antiquewhite;
 }
 
 /* Element Selectors */
