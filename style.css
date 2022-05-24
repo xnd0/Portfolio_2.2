@@ -16,9 +16,11 @@ body {
 header {
     display: flex;
     flex: wrap;
+    align-content: right;
 }
 
 nav {
+    min-width: 300px;
     justify-content: flex-end;
 }
 
@@ -32,9 +34,18 @@ ul {
 
 /* Class Selectors */
 
+.title {
+    min-width: 400px;
+}
+
 .outline {
     border: 2px solid darkgreen;
     padding: 1%;
     margin: 1%;
     border-radius: 10px;
+}
+
+.right {
+    align-items: right;
+    justify-content: right;
 }
