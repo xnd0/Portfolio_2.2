@@ -15,12 +15,14 @@ body {
 /* Element Selectors */
 header {
     display: flex;
-    flex: wrap;
-    align-content: right;
+    justify-content: space-between;
+    /* flex: wrap; */
+    /* align-content: right; */
 }
 
 nav {
-    min-width: 300px;
+    align-items: flex-end;
+    min-width: 400px;
     justify-content: flex-end;
 }
 
@@ -29,7 +31,8 @@ li {
 }
 
 ul {
-    align-items: right;
+    margin: 5%;
+    align-items: center;
 }
 
 /* Class Selectors */
