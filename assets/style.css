@@ -1,0 +1,54 @@
+/* ---------------------- */
+/* --- CSS Style Page --- */
+/* ---------------------- */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(16, 16, 48);
+    color:antiquewhite;
+}
+
+/* Element Selectors */
+header {
+    display: flex;
+    justify-content: space-between;
+    /* flex: wrap; */
+    /* align-content: right; */
+}
+
+nav {
+    align-items: flex-end;
+    min-width: 400px;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    margin: 5%;
+    align-items: center;
+}
+
+/* Class Selectors */
+
+.title {
+    min-width: 400px;
+}
+
+.outline {
+    border: 2px solid darkgreen;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.right {
+    align-items: right;
+    justify-content: right;
+}
