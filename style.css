@@ -35,6 +35,7 @@ ul {
     align-items: center;
 }
 
+
 /* Class Selectors */
 
 .title {
@@ -47,6 +48,7 @@ ul {
     margin: 1%;
     border-radius: 10px;
 }
+
 
 .right {
     align-items: right;
