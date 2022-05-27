@@ -15,5 +15,5 @@ live: https://xnd0.github.io/Portfolio_2.1/
 <br><br>
 
 ## Screenshots:
-![Top of the page](./assets/Portfolio2.1_screenshot1.png);
-![Bottom of page](./assets/Portfolio2.1_screenshot2.png);
+![Top of the page](./assets/Portfolio2.1_screenshot1.png)
+![Bottom of page](./assets/Portfolio2.1_screenshot2.png)
