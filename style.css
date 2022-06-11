@@ -9,7 +9,7 @@
 body {
     text-align: center;
     /* background-color: rgb(16, 16, 48); */
-    background-image: linear-gradient(to right, rgb(13, 13, 42), rgb(75, 75, 143));
+    background-image: linear-gradient(to right, rgb(75, 75, 143), rgb(13, 13, 42));
     color: rgb(242, 252, 255);
 }
 
@@ -24,13 +24,13 @@ img {
 header {
     display: flex;
     justify-content: space-between;
-    flex: wrap;
+    flex-wrap: wrap;
     /* align-content: right; */
 }
 
 nav {
     align-items: flex-end;
-    min-width: 400px;
+    min-width: 200px;
     justify-content: flex-end;
 
 }
@@ -59,7 +59,7 @@ h2 {
 /* Class Selectors */
 
 .title {
-    min-width: 400px;
+    min-width: 200px;
 
 }
 
@@ -76,12 +76,20 @@ h2 {
     justify-content: right;
 }
 
+.card {
+    background-color: black;
+}
+
 
 #work {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+}
+
+#highlight {
+    background-color: black;
 }
 
 @media screen and (min-width: 768px) {
