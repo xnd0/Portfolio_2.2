@@ -54,13 +54,16 @@ h2 {
 
 
 
-
-
 /* Class Selectors */
 
 .title {
     min-width: 200px;
 
+}
+
+
+.bio{
+    background-color: #25252A;
 }
 
 .outline {
@@ -81,6 +84,8 @@ h2 {
 }
 
 
+
+/* ID Selectors */
 #work {
     display: flex;
     flex-wrap: wrap;
@@ -92,6 +97,9 @@ h2 {
     background-color: black;
 }
 
+
+
+/* Media Queries */
 @media screen and (min-width: 768px) {
 
     .bio-container {
@@ -116,10 +124,6 @@ h2 {
 
 @media screen and (min-width: 992px) {
 
-    /* header {
-      width: 75%;
-    }
-   */
     .bio-container {
         display: flex;
         flex-wrap: wrap;
@@ -139,12 +143,3 @@ h2 {
     }
 }
 
-
-
-
-/* @media screen and (max-width: 992px) {
-    .card {
-        flex: 1 0 49%;
-      
-    }
-} */
