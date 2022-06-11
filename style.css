@@ -8,7 +8,6 @@
 
 body {
     text-align: center;
-    /* background-color: rgb(16, 16, 48); */
     background-image: linear-gradient(to right, rgb(75, 75, 143), rgb(13, 13, 42));
     color: rgb(242, 252, 255);
 }
@@ -25,7 +24,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* align-content: right; */
 }
 
 nav {
@@ -61,13 +59,12 @@ h2 {
 
 }
 
-
 .bio{
     background-color: #25252A;
 }
 
 .outline {
-    border: 2px solid rgb(2, 20, 2);
+    border: 1px solid rgb(2, 20, 2);
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
