@@ -9,9 +9,9 @@
 This is the xnd0 gitHub portfolio page. <br><br>
 
 ## Links: <br>
-repo: https://github.com/xnd0/Portfolio_2.1
+repo: https://github.com/xnd0/Portfolio_2.2
 <br>
-live: https://xnd0.github.io/Portfolio_2.1/
+live: https://xnd0.github.io/Portfolio_2.2/
 <br><br>
 
 ## Screenshots:
