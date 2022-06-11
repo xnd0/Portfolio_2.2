@@ -9,8 +9,8 @@
 body {
     text-align: center;
     /* background-color: rgb(16, 16, 48); */
-    background-image: linear-gradient(to right, rgb(13, 13, 42),rgb(75, 75, 143));
-    color:rgb(242, 252, 255);
+    background-image: linear-gradient(to right, rgb(13, 13, 42), rgb(75, 75, 143));
+    color: rgb(242, 252, 255);
 }
 
 img {
@@ -32,24 +32,24 @@ nav {
     align-items: flex-end;
     min-width: 400px;
     justify-content: flex-end;
-    
+
 }
 
 ul {
-    background-image: linear-gradient(rgb(75, 75, 143),rgb(13, 13, 42));
+    background-image: linear-gradient(rgb(75, 75, 143), rgb(13, 13, 42));
     margin: 5%;
     align-items: center;
-    
+
 }
 
 a,
 li {
     display: inline;
-    color:rgb(160, 233, 255);
+    color: rgb(160, 233, 255);
 }
 
 h2 {
-    background-image: linear-gradient(rgb(75, 75, 143),rgb(13, 13, 42));
+    background-image: linear-gradient(rgb(75, 75, 143), rgb(13, 13, 42));
 }
 
 
@@ -60,7 +60,7 @@ h2 {
 
 .title {
     min-width: 400px;
-    
+
 }
 
 .outline {
@@ -78,29 +78,31 @@ h2 {
 
 
 #work {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
     .card {
-        flex: 1 0 99%;
-        /* flex: 0 0 50%; */
-        max-width: 50%;
+        flex: 1 0 40%;
+        max-width: 40%;
     }
 }
 
 
 @media screen and (min-width: 992px) {
+
     /* header {
       width: 75%;
     }
    */
     .card {
-      flex: 1 0 33.333%;
-      max-width: 33.333%;
+        flex: 1 0 30%;
+        max-width: 30%;
     }
-  }
+}
 
 
 
@@ -111,4 +113,3 @@ h2 {
       
     }
 } */
- 
