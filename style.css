@@ -8,10 +8,10 @@
 
 body {
     text-align: center;
-    background-color: rgb(16, 16, 48);
-    color:antiquewhite;
+    /* background-color: rgb(16, 16, 48); */
+    background-image: linear-gradient(to right, rgb(13, 13, 42),rgb(75, 75, 143));
+    color:rgb(242, 252, 255);
 }
-
 
 img {
     display: block;
@@ -25,23 +25,33 @@ header {
     display: flex;
     justify-content: space-between;
     flex: wrap;
-    align-content: right;
+    /* align-content: right; */
 }
 
 nav {
     align-items: flex-end;
     min-width: 400px;
     justify-content: flex-end;
-}
-
-li {
-    display: inline;
+    
 }
 
 ul {
+    background-image: linear-gradient(rgb(75, 75, 143),rgb(13, 13, 42));
     margin: 5%;
     align-items: center;
+    
 }
+
+a,
+li {
+    display: inline;
+    color:rgb(160, 233, 255);
+}
+
+h2 {
+    background-image: linear-gradient(rgb(75, 75, 143),rgb(13, 13, 42));
+}
+
 
 
 
@@ -50,10 +60,11 @@ ul {
 
 .title {
     min-width: 400px;
+    
 }
 
 .outline {
-    border: 2px solid darkgreen;
+    border: 2px solid rgb(2, 20, 2);
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
