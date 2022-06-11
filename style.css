@@ -12,12 +12,20 @@ body {
     color:antiquewhite;
 }
 
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
 /* Element Selectors */
 header {
     display: flex;
     justify-content: space-between;
-    /* flex: wrap; */
-    /* align-content: right; */
+    flex: wrap;
+    align-content: right;
 }
 
 nav {
@@ -36,6 +44,8 @@ ul {
 }
 
 
+
+
 /* Class Selectors */
 
 .title {
@@ -44,8 +54,8 @@ ul {
 
 .outline {
     border: 2px solid darkgreen;
-    padding: 1%;
-    margin: 1%;
+    padding: 5px;
+    margin: 5px;
     border-radius: 10px;
 }
 
@@ -54,3 +64,5 @@ ul {
     align-items: right;
     justify-content: right;
 }
+
+
