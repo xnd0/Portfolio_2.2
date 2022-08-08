@@ -6,7 +6,7 @@
 <br>
 
 ## Description:
-This is the xnd0 gitHub portfolio page. <br><br>
+This is the xnd0 gitHub portfolio page. It contains links to some of my featured applications created in 2022 <br><br>
 
 ## Links: <br>
 repo: https://github.com/xnd0/Portfolio_2.2
