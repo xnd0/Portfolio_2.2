@@ -16,9 +16,9 @@ live: https://xnd0.github.io/Portfolio_2.2/
 
 ## Screenshots:
 ![Top of Website & Nav area](./assets/Portfolio_22.3.png)
-![Midddle of Page - Featured Apps Area](./assets/Portfolio_22.4.png)
+<!-- ![Midddle of Page - Featured Apps Area](./assets/Portfolio_22.4.png)
 ![Mobile-first screenshot](./assets/Portfolio_22.1.png)
-![Bottom of page in Mobile screen size](./assets/Portfolio_22.2.png)
+![Bottom of page in Mobile screen size](./assets/Portfolio_22.2.png) -->
 
 <br>
 
